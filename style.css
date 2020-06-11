@@ -19,6 +19,7 @@ body{
 
 a:hover{
     color: yellow;
+    border-color: yellow;
 }
 
 a {
@@ -28,7 +29,6 @@ a {
     float: right;
     margin-top: 10px;
     padding-right: 10px;
-    transition: color 0.5s;
     font-size: 20px;
 }
 
@@ -36,7 +36,8 @@ a {
 
 .txt {
     line-height: 1.5;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .br {
