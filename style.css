@@ -1,0 +1,26 @@
+@font-face{
+    font-family: F77 Minecraft Regular;
+    src:url(fonts/font.ttf);    
+}
+
+.container {
+    margin: 0 auto;
+    width: 730px;
+    overflow: auto;
+}
+
+body{
+    background-image: url(images/dirt.png);
+    color: #FFF;
+    font-family: F77 Minecraft Regular;
+}
+
+.button {
+    background-image: url(images/button.png);
+    im
+}
+
+.button:hover{
+    background-image: url(images/button_hover.png);
+}
+}
