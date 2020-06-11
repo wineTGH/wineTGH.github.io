@@ -5,7 +5,7 @@
 
 .container {
     margin: 0 auto;
-    width: 730px;
+    width: 1000px;
     overflow: auto;
 }
 
@@ -15,12 +15,22 @@ body{
     font-family: F77 Minecraft Regular;
 }
 
+/* Botton */
+
 .button {
-    background-image: url(images/button.png);
-    im
+    background-image: url(images/button.png);    
 }
 
 .button:hover{
     background-image: url(images/button_hover.png);
 }
+
+/* Links */
+
+a:hover{
+    color: yellow;
+}
+
+a {
+    color:white;
 }
