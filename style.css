@@ -5,24 +5,14 @@
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    width: 780px;
     overflow: auto;
 }
 
 body{
-    background-image: url(images/dirt.png);
+    background-image: url(images/stone.png);
     color: #FFF;
     font-family: F77 Minecraft Regular;
-}
-
-/* Botton */
-
-.button {
-    background-image: url(images/button.png);    
-}
-
-.button:hover{
-    background-image: url(images/button_hover.png);
 }
 
 /* Links */
@@ -33,4 +23,41 @@ a:hover{
 
 a {
     color:white;
+    text-decoration: none;
+    font-style: normal;
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+    transition: color 0.5s;
+    font-size: 20px;
+}
+
+/* Text */
+
+.txt {
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.br {
+    border: 1px solid white;
+    padding: 0px;
+    margin: 2px;
+}
+
+.label {
+    font-size: 32px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+/* image */
+
+.img {
+    margin-top: 10px;
+    text-align: center;
 }
