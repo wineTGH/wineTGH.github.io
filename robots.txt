@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://winetgh.github.io/Sitemap.xml
